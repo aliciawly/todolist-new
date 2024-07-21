@@ -13,13 +13,13 @@
 
 @implementation AppTests
 
-- (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
+- (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))index
 {
-  if (test(view)) {
+  if (index(view)) {
     return YES;
   }
   for (UIView *subview in [view subviews]) {
-    if ([self findSubviewInView:subview matching:test]) {
+    if ([self findSubviewInView:subview matching:index]) {
       return YES;
     }
   }

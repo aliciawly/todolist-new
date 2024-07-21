@@ -1,0 +1,15 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "location": "New York",
+    "family": {
+      "spouse": "Jane Doe",
+      "children": ["Tom", "Sally"]
+    },
+    "hobbies": ["reading", "hiking", "cooking"],
+    "preferences": {
+      "preferred_task_times": ["morning", "evening"],
+      "favorite_cuisine": "Italian"
+    }
+  }
+  
